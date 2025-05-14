@@ -5,6 +5,9 @@
     <target name="syllabus-web" source="syllabus/syllabus.ptx" format="html" xsl="custom-html.xsl"
             publication="publication_syllabus.ptx" 
             deploy-dir="syllabus" />
+    <target name="DEs-syllabus" source="syllabus/DEs-syllabus.ptx" format="html" xsl="custom-html.xsl"
+            publication="publication_syllabus.ptx" 
+            deploy-dir="syllabus" />
     <target name="syllabus-canvas" source="syllabus/syllabus.ptx" format="html" xsl="custom-html.xsl" 
             compression="scorm" publication="publication_scorm_syllabus.ptx" 
             output-filename="math240-spring2025-syllabus.zip" />
